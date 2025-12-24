@@ -43,38 +43,38 @@ MERGE-based incremental processing
 
 SCD Type-2 modeling
 
-📂 Repository Structure
+📂 ## Repository Structure
 snowflake-cdc-scd2-pipeline/
 │
 ├── README.md
 │
 ├── architecture/
-│   └── cdc_pipeline_architecture.png
+│ └── cdc_pipeline_architecture.png
 │
 ├── nifi/
-│   ├── customer_ingestion_flow.xml
-│   └── README.md
+│ ├── customer_ingestion_flow.xml
+│ └── README.md
 │
 ├── snowflake/
-│   ├── ddl/
-│   │   ├── customer_tables.sql
-│   │   ├── streams.sql
-│   │   └── file_formats.sql
-│   │
-│   ├── ingestion/
-│   │   ├── snowpipe.sql
-│   │   └── copy_history_checks.sql
-│   │
-│   ├── cdc/
-│   │   ├── merge_customer.sql
-│   │   └── scd2_customer_history.sql
-│   │
-│   └── tasks/
-│       ├── task_customer_current.sql
-│       └── task_customer_history.sql
+│ ├── ddl/
+│ │ ├── customer_tables.sql
+│ │ ├── streams.sql
+│ │ └── file_formats.sql
+│ │
+│ ├── ingestion/
+│ │ ├── snowpipe.sql
+│ │ └── copy_history_checks.sql
+│ │
+│ ├── cdc/
+│ │ ├── merge_customer.sql
+│ │ └── scd2_customer_history.sql
+│ │
+│ └── tasks/
+│ ├── task_customer_current.sql
+│ └── task_customer_history.sql
 │
 ├── sample-data/
-│   └── customer_sample.csv
+│ └── customer_sample.csv
 │
 └── .gitignore
 
