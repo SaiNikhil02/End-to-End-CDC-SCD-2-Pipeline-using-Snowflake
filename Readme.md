@@ -43,7 +43,8 @@ MERGE-based incremental processing
 
 SCD Type-2 modeling
 
-📂 ## Repository Structure
+## 📂 Repository Structure
+```text
 snowflake-cdc-scd2-pipeline/
 │
 ├── README.md
@@ -78,7 +79,7 @@ snowflake-cdc-scd2-pipeline/
 │
 └── .gitignore
 
-<b> 🔄 Data Flow Explained </b>
+## 🔄 Data Flow Explained
 1️⃣ Ingestion (Apache NiFi → S3)
 
 Apache NiFi runs on Dockerized EC2 
